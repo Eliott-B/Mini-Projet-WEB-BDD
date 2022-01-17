@@ -1,0 +1,141 @@
+/* Police d'écriture */
+@font-face{
+	font-family: "principal-font";
+	src: url("font/neuropolitical rg.ttf"); /* Firefox - Chrome - Safari - Opéra */
+	font-weight: normal;
+}
+
+html {
+    font-family: principal-font;
+}
+
+
+/* HEADER */
+
+header {
+	background-color: black;
+	padding: 5px;
+}
+
+div#en-tete img, h1.en-tete {
+	display: inline-block;
+	vertical-align: top;
+	color: azure;
+}
+
+header div#en-tete, div#nav {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+header div#nav {
+	float: right;
+}
+
+
+/* NAVIGATION */
+
+nav.menu-nav {
+	text-align: right;	
+	float: right;
+}
+
+nav.menu-nav ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.menu-nav ul li a {
+	color: rgb(158, 33, 24);
+	background-color: none;
+	text-decoration: none;
+	margin: 10px;
+	padding: 5px;
+	font-size: 25px;
+}
+
+nav.menu-nav ul li a:hover {
+	color: white;
+	text-decoration: underline;	
+	transition: 0.5s all
+}
+
+
+/* INDEX */
+
+.info-g h1.info, p.info, .img-i {
+	text-align: center;
+}
+
+#img_info .img-g, .img-d {
+	display: inline-block;
+}
+
+.img-g {
+	text-align: right;
+    width: 45%;
+	height: 100%;
+	float: left
+}
+
+.img-d {
+	text-align: left;
+    width: 45%;
+	height: 100%;
+	float: right
+}
+
+
+/* VITRINE */
+
+.gauche, .droite {
+	display: inline-block;
+}
+
+.gauche {
+	text-align: left;
+    width: 50%;
+	height: 100%;
+	float: left
+}
+
+.droite {
+	text-align: right;
+    width: 35%;
+	height: 100%;
+	float: right
+}
+
+.droite form {
+	padding-right: 5%;
+}
+
+.car img, div.info-car {
+	display:inline-block;
+	vertical-align: top;
+	text-align: start;
+	padding: 5px
+}
+
+h2.car {
+	font-size: 120%;
+}
+
+h1.commande {
+	font-size: 150%
+}
+
+
+/* FOOTER */
+
+footer {
+	background-color: black;
+	color: azure;
+	position: absolute;
+	bottom: 0;
+	padding: 15px;
+	height: 75px;
+	width: 98.5%;
+}
+
+

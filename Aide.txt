@@ -1,0 +1,13 @@
+Pour le suivi de commande 5 commandes sont préinstallées dans la base de donnée :
+1 : En cours d'analyse
+2 : En cours de fabrication
+3 : En cours d'expédition
+4 : Expédié
+5 : Livré
+
+Deux fichiers SQL sont disponnibles :
+1 (dans_le_mur1.sql) => Fichier qui nous a permit de créer la table.
+2 (dans_le_mur.sql) => Fichier qui permet de mettre en place la BDD pour les tests (exportaion de la BDD finie).
+
+Si un ou des fichiers sont conrrompus, le projet est disponible sur la plateforme GitHub sur le lien ci-dessous :
+=> https://github.com/Eliott-B/Mini-Projet-WEB-BDD
